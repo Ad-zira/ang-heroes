@@ -25,3 +25,7 @@ button:disabled {
 	color: #ccc;
 	cursor: auto;
 }
+button:active {
+	background-color: orange;
+	background-blend-mode: color-burn;
+}
