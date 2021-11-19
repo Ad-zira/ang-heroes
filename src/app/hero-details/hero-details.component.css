@@ -11,6 +11,8 @@ input {
 button {
 	margin-top: 20px;
 	background-color: #f5fbba;
+	/* background-image: url("/src/assets/leaf.gif"), url("/src/assets/paper.gif");
+	background-blend-mode: color-burn; */
 	border-radius: .35rem;
 	font-size: 1rem;
 	font-weight: bolder;
