@@ -1,9 +1,10 @@
 <div *ngIf="hero">
-	<h2>{{hero.name | capital }}</h2>
+	<h2>{{hero.name | capital }}'s Details</h2>
 	<div><span>id: </span>{{hero.id}}</div>
 	<div>
 		<label for="hero-name">Hero name: </label>
 		<input id="hero-name" [(ngModel)]="hero.name" placeholder="name">
 	</div>
+	<button (click)="goBack()">Back</button>
 </div>
 <!-- <p>hero-details works!</p> -->

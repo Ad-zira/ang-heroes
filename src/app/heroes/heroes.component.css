@@ -1,3 +1,4 @@
+/* HeroesComponent's private CSS styles */
 .heroes {
 	margin: 0 0 2em 0;
 	list-style-type: none;
@@ -8,21 +9,35 @@
 .heroes li {
 	cursor: pointer;
 	position: relative;
-	left: 0;
-	background-color: azure;
+}
+
+.heroes li:hover {
+	left: .1em;
+}
+
+.heroes a {
+	color: #333;
+	text-decoration: none;
+	background-color: rgb(179, 240, 240);
 	margin: .5em;
 	padding: .3em 0;
 	height: 1.6em;
 	border-radius: 4px;
+	display: block;
+	width: 100%;
 }
 
-.heroes li:hover {
+.heroes a:hover {
 	color: #2c3a41;
 	background-color: #e6e6e6;
-	left: .1em;
 }
 
-.heroes li.selected {
+.heroes a:active {
+	color: burlywood;
+	background-color: #2e2f28;
+}
+
+/* .heroes li.selected {
 	background-color: midnightblue;
 	color: wheat;
 }
@@ -31,11 +46,7 @@
 	background-color: #500550;
 	color: whitesmoke;
 }
-
-.heroes li.selected:active {
-	color: burlywood;
-	background-color: #2e2f28;
-}
+*/
 
 .heroes .badge {
 	display: inline-block;

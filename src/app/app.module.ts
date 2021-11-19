@@ -8,6 +8,7 @@ import { HeroesComponent } from './heroes/heroes.component';
 import { CapitalPipe } from './capital.pipe';
 import { HeroDetailsComponent } from './hero-details/hero-details.component';
 import { MessagesComponent } from './messages/messages.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { MessagesComponent } from './messages/messages.component';
     CapitalPipe,
     HeroDetailsComponent,
     MessagesComponent,
+    DashboardComponent,
   ],
   imports: [
     BrowserModule,
